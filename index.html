@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>PONO - DDD</title>
+</head>
+<body>
+  <header>
+    <div class="leftdiv">
+      <p>Firma założona w 1984 roku</p>
+    </div>
+
+    <div class="centerdiv">
+      <h1 class="hh1">PONO</h1>
+      <p>Firma specjalistyczna <br> Dezynfekcja, Dezynsekcja, Deratyzacja</p>
+    </div>
+
+    <div class="rightdiv">
+      <p>ul. Ferdynanda Focha 6, Zielonka, 05-220</p>
+      <p>tel. Dariusz: 602235524 <br> tel. Bohdan: 501781591</p>
+    </div>
+  </header>
+  <hr color="white">
+  <div class="main">
+    <div class="mmenu">
+      <ul class="mmenu-list">
+        <li class="mmenu-button tablink color" onclick="changeContent(event, 'O_nas')">O nas</li>
+        <li class="mmenu-button tablink" onclick="changeContent(event, 'Dezynfekcja')">Dezynfekcja</li>
+        <li class="mmenu-button tablink" onclick="changeContent(event, 'Dezynsekcja')">Dezynsekcja</li>
+        <li class="mmenu-button tablink" onclick="changeContent(event, 'Deratyzacja')">Deratyzacja</li>
+        <li class="mmenu-button tablink" onclick="changeContent(event, 'Kontakt')">Kontakt</li>
+        <li class="mmenu-button tablink" onclick="changeContent(event, 'Oferta')">Oferta</li>
+      </ul>
+    </div>
+
+      <div id="O_nas" class="menu_contents" style="display: block;">
+        <h3>O nas</h3>
+        <p>W naszym otoczeniu najczęściej zadbanym i miłym dla oka trudno jest wypatrzeć odpowiednio wcześniej zbliżającego się pod osłoną codziennie oglądanych przedmiotów szkodnika, może to być mysz lub szczur, zwabione zapachami z kuchni, magazynu lub ciepłem naszych domostw, przedsiębiorstw, podchodzą znajdując czasem łatwą drogę by zakłócić nasz spokój, zniszczyć owoce naszej pracy, narazić na dodatkowe koszty. Tuż za nimi a czasem przed nimi skradają się cichutko owady najliczniejsza w naszym świecie gromada która wykształciła przez miliony lat instynkt samozachowawczy znacznie lepiej od nas, ludzi. Potrafią przystosować się do nowych przez nas stworzonych warunków – środowiska i wykorzystać dla siebie z niego jak najwięcej. Znając ich sekrety możemy przeszkodzić im w tym niecnym procederze, stosując najnowsze czasem najprostsze preparaty i nasze doświadczenie. od lat oddajemy klientom uśmiech, reagując szybko a co za tym idzie skutecznie i oczywiście dyskretnie na wynikające z obecności szkodników nieprzyjemności.</p>
+      </div>
+
+      <div id="Dezynfekcja" class="menu_contents">
+        <h3>Dezynfekcja</h3>
+        <p>Odkażanie – postępowanie mające na celu niszczenie drobnoustrojów i ich przetrwalników. Dezynfekcja niszczy formy wegetatywne mikroorganizmów. Zdezynfekowany materiał nie musi być jałowy. Dezynfekcja, dotyczy przedmiotów i powierzchni użytkowych.Wyniki dezynfekcji zależą od trzech czynników:</p>
+        <ul>
+          <li>drobnoustroju – gatunek, liczba, aktywność fizjologiczna</li>
+          <li>środka dezynfekcyjnego – właściwości chemiczne i fizyczne, stężenie, czas działania</li>
+          <li>środowiska – temperatura, wilgotność, pH, obecność materii organicznej</li>
+          <br>
+        </ul>
+        <strong>Do dezynfekcji stosuje się metody fizyczne, chemiczne i termiczno – chemiczne.</strong>
+      </div>
+
+      <div id="Dezynsekcja" class="menu_contents">
+        <h3>Dezynsekcja</h3>
+        <p>Tępienie szkodliwych owadów (zwłaszcza pasożytniczych jak: muchy, komary, pchły, wszy i karaluchy), ich jaj i larw, ze względów sanitarnych i gospodarczych. W szerszym znaczeniu niszczenie stawonogów w ogóle.
+        <br>
+        Dezynsekcję można wykonać przez zastosowanie środków fizycznych (para, ogień, gorące powietrze, promieniowanie ultrafioletowe), mechanicznych (wyłapywanie, trzepanie, oczyszczanie), chemicznych (środki owadobójcze) i biologicznych (zwalczanie za pomocą innych organizmów żywych).
+        <br>
+        Usługi dezynsekcji – wykonujemy metodami i preparatami dostosowanymi do potrzeb, możliwości finansowych Klienta i wynikających z właściwych ustaw przepisów, zwracając szczególną uwagę na bezpieczeństwo.</p>
+        <strong>Zwalczamy wszelkie owady biegające i latające takie jak: karaluchy, prusaki, osy, muchy, meszki, pchły, pająki i inne.</strong>
+      </div>
+
+      <div id="Deratyzacja" class="menu_contents">
+        <h3>Deratyzacja</h3>
+        <p>Odszczurzanie – zwalczanie za pomocą środków chemicznych, fizycznych lub biologicznych wszelkich szkodliwych gryzoni, najczęściej szczurów i myszy. Przeważnie zatrutym pokarmem lub za pomocą pułapek, rzadziej innymi metodami.</p>
+        <strong>W naszych działaniach posługujemy się wyłącznie preparatami dopuszczonymi do obrotu na terenie RP i zabezpieczonymi substancją gorzką przed przypadkowym spożyciem.</strong>
+      </div>
+
+      <div id="Oferta" class="menu_contents">
+        <h3>Oferta</h3>
+        <!--- Jestem/Reprezentuje osobę prywatną/firmę-->
+
+      </div>
+
+      <div id="Kontakt" class="menu_contents">
+        <h3>Kontakt</h3>
+        <table width="100%">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Dariusz Łukaszewicz</th>
+            <th>Bohdan Pietrasiewicz</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>tel. domowy</td>
+            <td><a href="tel:227819750">22 781 97 50</a></td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>tel. komórkowy</td>
+            <td><a href="tel:602 235 524">602 235 524</a></td>
+            <td><a href="tel:501 781 591">501 781 591</a></td>
+          </tr>
+          <tr>
+            <td>e-mail</td>
+            <td><a href="mailto:dariusz.lukaszewicz@onet.pl">dariusz.lukaszewicz@onet.pl</a></td>
+            <td><a href="mailto:1104456@wp.pl">1104456@wp.pl</a></td>
+          </tr>
+        </tbody>
+        </table>
+        <br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2439.8803194121806!2d21.154677815979102!3d52.30002666026009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecfd330b98d65%3A0x6e5d564a9942cc53!2sFerdynanda%20Focha%206%2C%2005-220%20Zielonka!5e0!3m2!1spl!2spl!4v1629913981529!5m2!1spl!2spl" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <script>
+      function changeContent(evt, contentName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName('menu_contents');
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" color", "");
+      }
+      document.getElementById(contentName).style.display = "block";
+      evt.currentTarget.className += " color";
+    }
+    </script>
+
+  <hr color="white">
+
+  </div>
+  <footer>
+    <p>Usługi DDD dla przedsiębiorstw i osób prywatnych</p>
+  </footer>
+</body>
+</html>
