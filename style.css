@@ -16,6 +16,7 @@ header {
   font-style: italic;
   font-size: 12px;
   width: 33%;
+  position: relative;
 }
 
 .centerdiv {
@@ -61,17 +62,22 @@ ul.mmenu-list {
   overflow: auto;
 }
 
-li.mmenu-button {
+button.mmenu-button {
+  background-color: #0d0d0d;
+  border: none;
+  color: white;
   display: block;
   padding: 8px 16px;
+  text-align: left;
   text-decoration: none;
+  width: 100%;
 }
 
-li.mmenu-button.active {
+button.mmenu-button.active {
   background-color: #04AA6D;
 }
 
-li.mmenu-button:hover:not(.active) {
+button.mmenu-button:hover:not(.active) {
   background-color: #555;
   font-weight: bolder;
 }
@@ -85,12 +91,38 @@ li.mmenu-button:hover:not(.active) {
 }
 
 .color {
-  color:#fff!important;background-color:#f44336!important
+  color:#fff!important;background-color:#f44336!important;
+  font-weight: bolder;
+}
+
+.ofertadiv {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ofertaleftdiv {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.ofertarightdiv {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 footer {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-around;
   text-align: center;
+}
+
+button.fbutton {
+  background-color: #0d0d0d;
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
 }

@@ -24,19 +24,22 @@
   <hr color="white">
   <div class="main">
     <div class="mmenu">
-      <ul class="mmenu-list">
-        <li class="mmenu-button tablink color" onclick="changeContent(event, 'O_nas')">O nas</li>
-        <li class="mmenu-button tablink" onclick="changeContent(event, 'Dezynfekcja')">Dezynfekcja</li>
-        <li class="mmenu-button tablink" onclick="changeContent(event, 'Dezynsekcja')">Dezynsekcja</li>
-        <li class="mmenu-button tablink" onclick="changeContent(event, 'Deratyzacja')">Deratyzacja</li>
-        <li class="mmenu-button tablink" onclick="changeContent(event, 'Kontakt')">Kontakt</li>
-        <li class="mmenu-button tablink" onclick="changeContent(event, 'Oferta')">Oferta</li>
-      </ul>
+        <button type="button" class="mmenu-button tablink color" onclick="changeContent(event, 'O_nas')">O nas</button>
+        <button type="button" class="mmenu-button tablink" onclick="changeContent(event, 'Dezynfekcja')">Dezynfekcja</button>
+        <button type="button" class="mmenu-button tablink" onclick="changeContent(event, 'Dezynsekcja')">Dezynsekcja</button>
+        <button type="button" class="mmenu-button tablink" onclick="changeContent(event, 'Deratyzacja')">Deratyzacja</button>
+        <button type="button" class="mmenu-button tablink" onclick="changeContent(event, 'Oferta')">Oferta</button>
+        <button type="button" class="mmenu-button tablink" onclick="changeContent(event, 'Kontakt')">Kontakt</button>
     </div>
 
       <div id="O_nas" class="menu_contents" style="display: block;">
         <h3>O nas</h3>
-        <p>W naszym otoczeniu najczęściej zadbanym i miłym dla oka trudno jest wypatrzeć odpowiednio wcześniej zbliżającego się pod osłoną codziennie oglądanych przedmiotów szkodnika, może to być mysz lub szczur, zwabione zapachami z kuchni, magazynu lub ciepłem naszych domostw, przedsiębiorstw, podchodzą znajdując czasem łatwą drogę by zakłócić nasz spokój, zniszczyć owoce naszej pracy, narazić na dodatkowe koszty. Tuż za nimi a czasem przed nimi skradają się cichutko owady najliczniejsza w naszym świecie gromada która wykształciła przez miliony lat instynkt samozachowawczy znacznie lepiej od nas, ludzi. Potrafią przystosować się do nowych przez nas stworzonych warunków – środowiska i wykorzystać dla siebie z niego jak najwięcej. Znając ich sekrety możemy przeszkodzić im w tym niecnym procederze, stosując najnowsze czasem najprostsze preparaty i nasze doświadczenie. od lat oddajemy klientom uśmiech, reagując szybko a co za tym idzie skutecznie i oczywiście dyskretnie na wynikające z obecności szkodników nieprzyjemności.</p>
+        <p>
+          W naszym otoczeniu (najczęściej zadbanym i miłym dla oka) trudno jest wypatrzeć odpowiednio wcześnie zbliżającego się szkodnika. Może to być mysz lub szczur zwabiony zapachami z kuchni, magazynu lub ciepłem naszych domostw i przedsiębiorstw. Przychodzą, by zakłócić nasz spokój, zniszczyć owoce naszej pracy i narazić na dodatkowe koszty.
+          <br><br>Tuż za nimi, a czasem przed nimi skradają się cichutko owady - najliczniejsza w naszym świecie gromada, która przez miliony lat wykształciła znacznie lepiej od ludzi instynkt samozachowawczy. Potrafią przystosować się do nowych, stworzonych przez nas warunków środowiska i wykorzystać z nich jak najwięcej dobrego dla siebie.
+          <br>Znając ich sekrety możemy przeszkodzić im w tym niecnym procederze, stosując najnowsze - czasem najprostsze preparaty i nasze doświadczenie.
+          <br><br>Od lat wywołujemy na twarzach naszych klientów uśmiech i ulgę, reagując szybko, a co za tym idzie; skutecznie i oczywiście dyskretnie na wynikające z obecności szkodników nieprzyjemności.
+        </p>
       </div>
 
       <div id="Dezynfekcja" class="menu_contents">
@@ -54,9 +57,9 @@
       <div id="Dezynsekcja" class="menu_contents">
         <h3>Dezynsekcja</h3>
         <p>Tępienie szkodliwych owadów (zwłaszcza pasożytniczych jak: muchy, komary, pchły, wszy i karaluchy), ich jaj i larw, ze względów sanitarnych i gospodarczych. W szerszym znaczeniu niszczenie stawonogów w ogóle.
-        <br>
+        <br><br>
         Dezynsekcję można wykonać przez zastosowanie środków fizycznych (para, ogień, gorące powietrze, promieniowanie ultrafioletowe), mechanicznych (wyłapywanie, trzepanie, oczyszczanie), chemicznych (środki owadobójcze) i biologicznych (zwalczanie za pomocą innych organizmów żywych).
-        <br>
+        <br><br>
         Usługi dezynsekcji – wykonujemy metodami i preparatami dostosowanymi do potrzeb, możliwości finansowych Klienta i wynikających z właściwych ustaw przepisów, zwracając szczególną uwagę na bezpieczeństwo.</p>
         <strong>Zwalczamy wszelkie owady biegające i latające takie jak: karaluchy, prusaki, osy, muchy, meszki, pchły, pająki i inne.</strong>
       </div>
@@ -69,8 +72,37 @@
 
       <div id="Oferta" class="menu_contents">
         <h3>Oferta</h3>
-        <!--- Jestem/Reprezentuje osobę prywatną/firmę-->
-
+        <div class=ofertadiv>
+          <div class="ofertaleftdiv">
+            <h4>Dla osób prywatnych</h4>
+            <p>Zabiegi i czynności wykonywane przez nas w Państwa domach mają na celu zlikwidowanie występujących w nich szkodników.
+            <br>W zależności od infestacji pomieszczenia (ilości owadów) stosujemy różne preparaty i metody:</p>
+            <ul>
+              <li>oprysk – preparaty w formulacji emulsji, mikrokapsułek</li>
+              <li>opylanie – preparaty w formulacji pylistej, proszkowej</li>
+              <li>żelowanie</li>
+              <li>odkomarzanie</li>
+              <li>usuwanie gniazd os</li>
+            </ul>
+          </div>
+          <div class="ofertarightdiv">
+            <h4>Dla firm & przedsiębiorstw</h4>
+            <strong>GHP - Dobra Praktyka Higieniczna:</strong>
+            <p>Działania, które muszą być podjęte i warunki higieniczne, które muszą być spełniane i kontrolowane na wszystkich etapach produkcji lub obrotu, aby zapewnić bezpieczeństwo żywności.</p>
+            <p>Bezpieczeństwo przechowywania, produkcji i handlu produktami spożywczymi zależy od:</p>
+            <ul>
+              <li><b>Sprawnie prowadzonego monitoringu</b></li>
+              <li><b>Szybkiej reakcji</b></li>
+              <li><b>Skutecznej interwencji</b></li>
+              <p align="center"><b>oraz</b></p>
+              <li>działań odnotowanych w specjalnie dostosowanej do Państwa firmy książce zwanej:</li>
+              <p align="center"><b><i>"Procedury monitorowania i zwalczania szkodników"</i></b></p>
+              <p>Tworzenie jej następuje w ścisłej współpracy. Podczas tego procesu określane są cele, wymagania oraz zakres prac wykonywanych przez naszą Firmę.</p>
+              <p style="font-size: 12px" align="center"><i>Miesięczny koszt obsługi zależy głównie od ilości zamontowanych urządzeń monitorujących.</i></p>
+            </ul>
+          </div>
+        </div>
+        <p>Istnieje możliwość negocjacji ceny usługi. Proponujemy usługi jednorazowe jak również zawarcie umowy stałej lub sezonowej.</p>
       </div>
 
       <div id="Kontakt" class="menu_contents">
@@ -87,7 +119,7 @@
           <tr>
             <td>tel. domowy</td>
             <td><a href="tel:227819750">22 781 97 50</a></td>
-            <td>-</td>
+            <td></td>
           </tr>
           <tr>
             <td>tel. komórkowy</td>
@@ -106,27 +138,35 @@
       </div>
     </div>
 
-    <script>
-      function changeContent(evt, contentName) {
-        var i, x, tablinks;
-        x = document.getElementsByClassName('menu_contents');
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < x.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" color", "");
-      }
-      document.getElementById(contentName).style.display = "block";
-      evt.currentTarget.className += " color";
-    }
-    </script>
-
   <hr color="white">
+
+  <script>
+    function changeContent(evt, contentName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName('menu_contents');
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" color", "");
+    }
+    document.getElementById(contentName).style.display = "block";
+    evt.currentTarget.className += " color";
+  }
+  </script>
 
   </div>
   <footer>
-    <p>Usługi DDD dla przedsiębiorstw i osób prywatnych</p>
+    <div class="leftdiv">
+    </div>
+
+    <div class="centerdiv">
+      <p>Usługi DDD dla przedsiębiorstw i osób prywatnych</p>
+    </div>
+
+    <div class="rightdiv">
+    </div>
   </footer>
 </body>
 </html>
